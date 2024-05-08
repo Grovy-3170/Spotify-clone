@@ -32,7 +32,7 @@ async function displayFolders(folder){
 }
 
 async function getfolder(){
-    let a = await fetch("http://192.168.126.68:3000/folders/");
+    let a = await fetch("folders/");
     let response = await a.text();
     let div = document.createElement('div');
     div.innerHTML = response;
