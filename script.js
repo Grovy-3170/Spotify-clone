@@ -34,7 +34,7 @@ async function displayFolders(folder){
 }
 
 async function getfolder(){
-    let a = await fetch("https://github.com/Grovy-3170/Spotify-clone/tree/main/folders");
+    let a = await fetch("https://drive.google.com/drive/folders/1efLqjuiwLA2PGmFrdiN1rIBYfY3c9OmP?usp=sharing");
     let response = await a.text();
     console.log(response);
     let div = document.createElement('div');
