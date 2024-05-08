@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Spotify Clone</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-color">
+    <div class="left border m-1">
+        <div class="home grey-1 border-radius">
+            <img class="invert" src="images/logo.svg" alt="logo">
+            <div class="home-btn cursor">
+                <img class="invert" src="images/home.svg" alt="home">
+                <a href = "index.html">Home</a>
+            </div>
+            <div class="search-btn cursor notavailable">
+                <img src="images/search.svg" alt="search" class="invert">
+                <p>Search</p>
+            </div>
+            <img class="invert cross cursor" src="images/cross.svg" alt="cross">
+        </div>
+        <div class="library grey-1 border-radius">
+            <div class="library-header">
+                <div class="heading">
+                    <div class="library-icon">
+                        <img class="invert" src="images/library.svg" alt="library">
+                        Your Library
+                    </div>
+                    <img class="invert cursor notavailable" src="images/plus-icon.svg" alt="create-playlist">
+                </div>
+                <div class="songs">
+                    <ul></ul>
+                </div>
+            </div>
+            <footer>
+                <ul>
+                    <li><a class="cursor notavailable">Legal</a></li>
+                    <li><a class="cursor notavailable">Safety &amp; Privacy Center</a></li>
+                    <li><a class="cursor notavailable">Privacy Policy</a></li>
+                    <li><a class="cursor notavailable">Cookies</a></li>
+                    <li><a class="cursor notavailable">About Ads</a></li>
+                    <li><a class="cursor notavailable">Accessibility</a></li>
+                </ul>                
+            </footer>
+        </div>
+    </div>
+    <div class="right border border-radius grey-1">
+        <header>
+            <div class="container m-1">
+                <div class="arrows">
+                    <div class="hamburger cursor">
+                        <img class="invert" style="height: 25px;" src="images/hamburger.svg" alt="open list">
+                    </div>
+                    <div id="prevList" class="go-back cursor">
+                        <img class="invert" src="images/left-arrow.svg" alt="Go Back">
+                    </div>
+                    <div id="nextList" class="go-forward cursor">
+                        <img class="invert" src="images/right-arrow.svg" alt="Go Forward">
+                    </div>
+                </div>
+                <div class="account">
+                    <div class="signup-btn cursor notavailable">
+                        Sign up
+                    </div>
+                    <div class="login-btn cursor notavailable">
+                        Log in
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <h2>Spotify Playlists</h2>
+            <div class="cards">
+            </div>
+            <div class="play-bar">
+                <div class="song-info">
+                    <p></p>
+                </div>
+                <div class="buttons">
+                    <img id="previous" class="invert cursor" src="images/backward.svg" alt="go-back">
+                    <img id="play" class="invert cursor" src="images/play.svg" alt="play/pause">
+                    <img id="next" class="invert cursor" src="images/forward.svg" alt="go-forward">
+                </div>
+                <div class="info-box">
+                    <div class="time-info">00:00/00:00</div>
+                    <div class="volume">
+                        <img id="volumeBtn" class="invert cursor" src="images/volume.svg" alt="volume">
+                        <input id="volumeRange" class="cursor" type="range" value="100">   
+                    </div>
+                </div>
+                <div class="seeker cursor">
+                    <div class="circle cursor"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src = 'script.js'></script>
+</body>
+</html>

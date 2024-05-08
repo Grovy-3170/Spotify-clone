@@ -1,0 +1,40 @@
+.bg-color{
+    background-color: black;
+}
+.hidden-overflow{
+    overflow-y: hidden;
+}
+.grey-1{
+    background-color: #121212;
+}
+.green{
+    background-color: green;
+}
+.border-radius{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 8px;
+}
+.p-1{
+    padding: 8px;
+}
+.invert{
+    filter: invert(1);
+}
+::-webkit-scrollbar{
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background: #333;
+}
+::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.cursor{
+    cursor: pointer;
+}
