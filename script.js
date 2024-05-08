@@ -3,8 +3,6 @@ let folder = []
 let currentFolder;
 let playPromise = 0;
 let currentsong = new Audio();
-const cors = require('cors');
-app.use(cors());
 
 async function displayFolders(folder){
     let x = await fetch(folder+"info.json");
