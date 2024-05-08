@@ -38,6 +38,7 @@ async function getfolder(){
     div.innerHTML = response;
     let as = Array.from(div.getElementsByTagName('a'));
     as.forEach(e => {
+        console.log(e);
         if(e.href.includes("/folders")){
             folder.push(e.href);
         }
