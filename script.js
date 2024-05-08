@@ -32,7 +32,7 @@ async function displayFolders(folder){
 }
 
 async function getfolder(){
-    let a = await fetch("folders/");
+    let a = await fetch("https://github.com/Grovy-3170/Spotify-clone/tree/main/folders");
     let response = await a.text();
     let div = document.createElement('div');
     div.innerHTML = response;
